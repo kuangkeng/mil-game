@@ -3,7 +3,7 @@ var dataset = [
     {
         "id":"scenario-0",
         "text":"<p>Introduction</p>",
-        "img":"img/story-0/cover.png",
+        "img":"img/story-0/cover.PNG",
         "more":0,
         "info":"",
         "optNum":0,
@@ -14,7 +14,7 @@ var dataset = [
     {
         "id":"scenario-1",
         "text":"<p>A local by-election is in 2 weeks. You are a voter but you don’t know who to vote for/ haven’t decided. Your friend tells you about Candidate X. You voted for him last time and was planning to vote for him again. But your friend’s WhatsApp message claims that Candidate X is guilty of domestic abuse. You are shocked! In disbelief! You cannot imagine this is true. You decide to investigate these claims.</p>",
-        "img":"img/story-0/1.png",
+        "img":"img/story-0/1.PNG",
         "more":0,
         "info":"",
         "optNum":0,
@@ -25,7 +25,7 @@ var dataset = [
     {
         "id":"scenario-1-1",
         "text":"<p class='question'>What do you do next?</p>",
-        "img":"img/story-0/1.png",
+        "img":"img/story-0/1.PNG",
         "more":0,
         "info":"",
         "optNum":3,
@@ -42,7 +42,7 @@ var dataset = [
     {
         "id":"scenario-2",
         "text":"<p>You share the articles you found with your friend to refute his claims that Candidate X beats his wife. In the articles you found, Candidate X says this is just campaign mud-slinging. In return, your friend sends you a special expose report from a news site that you don’t recognize with a headline that reads “Candidate X charged by High Court for domestic abuse”.</p><p class='question'>What do you do with the link?</p>",
-        "img":"img/story-0/7.png",
+        "img":"img/story-0/7.PNG",
         "more":0,
         "info":"",
         "optNum":2,
@@ -57,7 +57,7 @@ var dataset = [
     {
         "id":"scenario-3",
         "text":"<p>You realize that the article details how Candidate X has been accused of abusing his wife several times before. The article quotes family members of the victim and a reputable NGO - all of whom are saying  that Candidate X is very likely guilty. There is overwhelming evidence to prove this.</p><p class='question'>How do you feel having read this article?</p>",
-        "img":"img/story-0/2.png",
+        "img":"img/story-0/2.PNG",
         "more":0,
         "info":"",
         "optNum":2,
@@ -72,7 +72,7 @@ var dataset = [
     {
         "id":"scenario-4",
         "text":"<p>You are so angry. You make a Facebook post about this issue. You even make the post public! You say in your post “Look at the lies these people are spreading about Candidate X! Trying to smear a hardworking representative” A couple hours later, you have a ton of comments. Most of your friends have commented agreeing with your statement. However there are some strangers who disagree, and have attached articles to their comments continuing to claim that Candidate X is guilty. These strangers also say that some of the commenters are cybertroopers and not to believe those comments.</p>",
-        "img":"img/story-0/3.png",
+        "img":"img/story-0/3.PNG",
         "more":0,
         "info":"",
         "optNum":0,
@@ -83,7 +83,7 @@ var dataset = [
     {
         "id":"scenario-4-1",
         "text":"<p>You click on one of the profiles of the comments that someone says is made by a cybertrooper. You notice that their account is bare, not much personal info, and all their posts are only about Candidate X or others from the same political party.</p>",
-        "img":"img/story-0/3.png",
+        "img":"img/story-0/3.PNG",
         "more":0,
         "info":"",
         "optNum":0,
@@ -94,7 +94,7 @@ var dataset = [
     {
         "id":"scenario-4-2",
         "text":"<p>The next morning, you find even more comments on your post and most of them are saying that the charges against Candidate X are true. There are even a few people who say that they themselves have been witnesses to his aggressive behaviour towards his wife.</p><p class='question'></>How do you feel now?</p>",
-        "img":"img/story-0/3.png",
+        "img":"img/story-0/3.PNG",
         "more":0,
         "info":"",
         "optNum":2,
@@ -109,7 +109,7 @@ var dataset = [
     {
         "id":"scenario-5",
         "text":"<p class='question'>Do you feel like you got the whole story now?</p>",
-        "img":"img/story-0/4.png",
+        "img":"img/story-0/4.PNG",
         "more":0,
         "info":"",
         "optNum":1,
@@ -122,7 +122,7 @@ var dataset = [
     {
         "id":"scenario-6",
         "text":"<p>Are you compelled to visit these other news sites (Kini for example) again in the future?</p>",
-        "img":"img/story-0/6.png",
+        "img":"img/story-0/6.PNG",
         "more":0,
         "info":"",
         "optNum":1,
@@ -135,7 +135,7 @@ var dataset = [
     {
         "id":"scenario-7",
         "text":"<p class='question'>YOUR RESULTS</p><p>You are in an echo chamber. You are a dreamer. Here are tips to get out of your echo chamber. You should always have couple of these sites or information sources in your media diet so you can get alternative perspectives. Just having one type of news sites can lead you down the path of having just one perspective without realising there are others.</p>",
-        "img":"img/story-0/5.png",
+        "img":"img/story-0/5.PNG",
         "more":0,
         "info":"",
         "optNum":0,
