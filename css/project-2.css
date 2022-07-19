@@ -4,7 +4,7 @@ body, html {background:#000; -ms-scrollbar-base-color: #ffffff; scrollbar-face-c
 
 .main-container {
      max-width: 800px;
-     background-image: url("../img/background-blue.png");
+     background-image: url("../img/background.png");
      background-size: cover;
      background-position: center;
 }
@@ -64,7 +64,7 @@ body, html {background:#000; -ms-scrollbar-base-color: #ffffff; scrollbar-face-c
      display:none;
 }
 .panel {
-     color:#ffffff;
+     color:#212529;
      position: relative;
      width: 100%;
      max-width: 800px;
@@ -133,6 +133,19 @@ body, html {background:#000; -ms-scrollbar-base-color: #ffffff; scrollbar-face-c
 .question {
      text-align: center;
      font-weight: 600;
+}
+
+.btn-light {
+    background-color: #ffbf22;
+    border-color: #ffbf22;
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+    /* background-color: #f4926e;
+    border-color: #f4926e; */
+    background-color: #fb5607;
+    border-color: #fb5607;
+    color: #ffffff;
 }
 
 @media (max-width: 500px ) { 
