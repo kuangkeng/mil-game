@@ -20,6 +20,8 @@ function init() {
   $('#scenario-0').fadeIn(500); 
   
   $(document).on('click', '.btnOpt', function(){
+    $('.homeCredits').fadeOut(500);
+    $('.game-title').fadeOut(500);
     $(window).scrollTop(0); 
     var btnTitle = $(this).attr('data-id');
     var scLast = $(this).parents('.scenario').attr('id');

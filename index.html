@@ -49,7 +49,22 @@
 <body>
   <div class="container main-container text">  
     <div class="panel" id="panel-scenario">
-      <div class="scTitle text-right pt-2"><h6>DEMO</h6></div>
+      <div class="top_logo"><img src="img/logo_title_small.png" class="img-fluid" style="max-height:25px;" alt="game logo"></div>
+      <div class="scTitle text-right pt-2">
+        <div class="btn-group" role="group">
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" style="color:#fff" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <small><i class="fas fa-share-alt"></i></small>
+            </button>
+            <div class="dropdown-menu" style="font-size: 1.5em; min-width: 0;">
+              <a class="dropdown-item px-2 py-0 btnFB"><i class="fab share-icons-home fa-facebook-square"></i></a>
+              <a class="dropdown-item px-2 py-0 btnTW"><i class="fab share-icons-home fa-twitter"></i></a>
+              <a class="dropdown-item px-2 py-0 btnWA"><i class="fab share-icons-home fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-4 text-center game-title"><h1>Game title - TBD</h1></div>
       <div class="my-3 scImg"></div>
       <div class="scenarioBox">
         <div class="scenario" id="scenario-0">
@@ -170,6 +185,23 @@
       </div>
     </div>
   </div>
+  <div class="container homeCredits py-3" style="max-height: 136px;">        
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col-12 col-sm-4 text-muted"><small>Created by</small></div>
+          <div class="col-8 col-sm-4 text-left pl-sm-0 pr-0 d-flex align-items-center"><div class="img-fluid" style="width:100%;height:100%;max-height:40px;max-width:120px;background-color: aqua;"></div></div>
+          <div class="col text-left pl-sm-0 d-flex align-items-center"><div class="img-fluid" style="width:100%;height:100%;max-height:40px;max-width:120px;background-color: aqua;"></div></div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col-12 col-sm-4 text-muted"><small>Supported by</small></div>
+          <div class="col text-left pl-sm-0 d-flex align-items-center"><div class="img-fluid" style="width:100%;height:100%;max-height:40px;max-width:120px;background-color: aqua;"></div></div>
+        </div>
+      </div>
+    </div>  
+  </div>
   <div class="info-background"></div>
 
   <!-- /container -->
@@ -178,6 +210,7 @@
 
   <!-- ### KEEP  Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/679ed1f09d.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/data-en.js"></script>

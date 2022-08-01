@@ -2,7 +2,7 @@ var dataset = [
 [
     {
         "id":"scenario-0",
-        "text":"<p>Introduction</p>",
+        "text":"<p>Are you media literate? Have you been a victim of cybertroopers? Take this quiz to find out!</p>",
         "img":"img/story-0/cover.PNG",
         "more":0,
         "info":"",
@@ -71,7 +71,7 @@ var dataset = [
     },
     {
         "id":"scenario-4",
-        "text":"<p>You are so angry. You make a Facebook post about this issue. You even make the post public! You say in your post “Look at the lies these people are spreading about Candidate X! Trying to smear a hardworking representative” A couple hours later, you have a ton of comments. Most of your friends have commented agreeing with your statement. However there are some strangers who disagree, and have attached articles to their comments continuing to claim that Candidate X is guilty. These strangers also say that some of the commenters are cybertroopers and not to believe those comments.</p>",
+        "text":"<p>You angrily make a public Facebook post about this issue. “Look at the lies these people are spreading about Candidate X! Trying to smear a hardworking representative” Soon, you receive ton of comments. Most of your friends agree with your statement but there are some strangers who disagree, and have attached articles to their comments continuing to claim that Candidate X is guilty. These strangers also say that some of the commenters are cybertroopers and not to believe those comments.</p>",
         "img":"img/story-0/3.PNG",
         "more":0,
         "info":"",
@@ -127,10 +127,10 @@ var dataset = [
         "info":"",
         "optNum":1,
         "optImg":1,
-        "opt0":"No",
-        "target0":"scenario-7",
-        "opt1":"Yes",
-        "target1":"scenario-stop",
+        "opt0":"Yes",
+        "target0":"scenario-stop",
+        "opt1":"No",
+        "target1":"scenario-7",
     },
     {
         "id":"scenario-7",

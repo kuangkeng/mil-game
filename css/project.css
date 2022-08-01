@@ -7,6 +7,8 @@ body, html {background:#000; -ms-scrollbar-base-color: #ffffff; scrollbar-face-c
      background-image: url("../img/background-blue.png");
      background-size: cover;
      background-position: center;
+     padding-left: 30px;
+     padding-right: 30px;
 }
 .scImg {
      background-image: url("");
