@@ -4,7 +4,7 @@ body, html {background:#000; -ms-scrollbar-base-color: #ffffff; scrollbar-face-c
 
 .main-container {
      max-width: 800px;
-     background-image: url("../img/background-blue.png");
+     background-image: url("../img/background.png");
      background-size: cover;
      background-position: center;
      padding-left: 30px;
@@ -16,12 +16,15 @@ body, html {background:#000; -ms-scrollbar-base-color: #ffffff; scrollbar-face-c
      background-position: center center;
      position: relative;
      height:300px;
-     width:80%;
+     width:55%;
      margin: 0 auto;
      background-repeat:no-repeat;
      -webkit-background-size:cover;
      -moz-background-size:cover;
      -o-background-size:cover;
+}
+.scText {
+     text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
 }
 .theEnd {
      background: rgba(0,0,0,0.3);
@@ -157,4 +160,5 @@ body, html {background:#000; -ms-scrollbar-base-color: #ffffff; scrollbar-face-c
 
 @media only screen and (orientation: portrait) {
      .scImg {width: 100%;}
+     .game-title {width: 50%;margin:0 auto}
    }
